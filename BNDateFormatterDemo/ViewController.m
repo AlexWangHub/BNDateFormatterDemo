@@ -23,6 +23,7 @@
     NSDate *date = [NSDate date];
     
     NSString *aaa = @"aaa";
+    NSString *bbb = @"bbb";
     
     // 1. 测试每次都重建 NSDateFormatter 去解析 NSDate 是否耗时
     {
