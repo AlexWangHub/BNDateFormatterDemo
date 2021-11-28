@@ -22,6 +22,8 @@
     NSString *string;
     NSDate *date = [NSDate date];
     
+    NSString *aaa = @"aaa";
+    
     // 1. 测试每次都重建 NSDateFormatter 去解析 NSDate 是否耗时
     {
         // 1.1 每次解析时间都创建一个Formatter
